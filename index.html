@@ -15,7 +15,7 @@
     <!-- Icon-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <title>CS GO Shinigami</title>
+    <title>Web Bootstrap</title>
 </head>
 
 <body class="body">
@@ -28,86 +28,68 @@
                         src="images/logo.png" style=" max-width:130px; 
                     max-height:80px"></a>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Pencarian" aria-label="Search">
                 </form>
                 <div style="width: 30%;">
                     <i class="bi bi-house-door icons"></i>
                     <i class="bi bi-inbox icons"></i>
                     <i class="bi bi-compass icons"></i>
                     <i class="bi bi-heart icons"></i>
-                    <img class="img-nav" src="images/foto-instagram.jpg">
+                    <img class="img-nav" src="images/dira.png">
                 </div>
             </div>
         </nav>
     </header>
 
-    <!-- Main-->
-    <section>
-        <div class="container">
+<!-- ...existing code... -->
+<div class="container">
+    <div class="row py-4 align-items-center">
+        <div class="col-12 col-md-3 text-center mb-3 mb-md-0">
+            <img class="img-profile img-fluid rounded-circle" src="images/dira.png" alt="Profile Image">
+        </div>
+        <div class="col-12 col-md-7">
+            <div class="row align-items-center mb-2">
+                <div class="col-8 col-lg-5">
+                    <h2 class="username mb-0">dirnzwand</h2>
+                </div>
+                <div class="col-4 col-lg-6 text-end">
+                    <button type="button" class="btn btn-outline-secondary button-edit">Edit Profile</button>
+                </div>
+            </div>
+            <div class="row text-center text-md-start mb-2">
+                <div class="col-4">
+                    <p class="profile-datas mb-0"><strong>0</strong> posts</p>
+                </div>
+                <div class="col-4">
+                    <p class="profile-datas mb-0"><strong>1,000</strong> followers</p>
+                </div>
+                <div class="col-4">
+                    <p class="profile-datas mb-0"><strong>970</strong> following</p>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-12">
+                    <h1 class="name"></h1>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-0 col-md-2"></div>
-                <div class="col-12 col-md-8">
-
-                    <!-- Profile-->
-                    <div class="container">
-                        <div class="row" style="padding-top: 20px;">
-                            <div class="col-3">
-                                <img class="img-profile" src="images/foto-instagram.jpg">
-                            </div>
-                            <div class="col-7">
-                                <div class="row" style="padding-top: 20px; padding-bottom: 10px;">
-                                    <div class="col-8 col-lg-5">
-                                        <h2 class="username">cs_go_Shinigami</h2>
-                                    </div>
-                                    <div class="col-4 col-lg-6"><button type="button"
-                                            class="btn btn-outline-secondary button-edit">Editar
-                                            perfil</button></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-4">
-                                        <p class="profile-datas"><strong>3</strong> publicações</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <p class="profile-datas"><strong>12k</strong> seguidores</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <p class="profile-datas"><strong>332</strong> seguindo</p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h1 class="name">Shinigami</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <p class="profile-desc">Player CS GO | : )</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-2"></div>
-                        </div>
-                    </div>
+                <div class="col-12">
+                    <p class="profile-desc fw-bold mb-0">NOUVEAU CHAPITRE</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-block col-md-2"></div>
+    </div>
+</div>
+<!-- ...existing code... -->
 
                     <!-- Stories-->
                     <div style="padding-top: 0px;">
                         <div class="row">
-                            <div class="col-2"> <canvas id="myCrl"></canvas></div>
-                            <div class="col-2"> <canvas id="myCrl1"></canvas></div>
-                            <div class="col-2"> <canvas id="myCrl2"></canvas></div>
-                            <div class="col-2"> <canvas id="myCrl3"></canvas></div>
-                            <div class="col-2"> <canvas id="myCrl4"></canvas></div>
-                            <div class="col-2"> <canvas id="myCrl5"></canvas></div>
                         </div>
                     </div>
                     <div style="padding-bottom: 40px;">
                         <div class="row">
-                            <div class="col-2 stories"> Gameplay </div>
-                            <div class="col-2 stories"> Twitch </div>
-                            <div class="col-2 stories"> Skills </div>
-                            <div class="col-2 stories"> Games </div>
-                            <div class="col-2 stories"> Team </div>
-                            <div class="col-2 stories"> Professional </div>
                         </div>
                     </div>
 
@@ -118,12 +100,12 @@
                     <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICAÇÕES </a>
+                                aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICATION </a>
                         </li>
 
                         <li class="nav-item" role="presentation">
                             <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
-                                aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> MARCADOS </a>
+                                aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> TAGGING </a>
                         </li>
                     </ul>
 
@@ -133,17 +115,14 @@
                             <div class="row" style="padding-bottom: 25px;">
                                 <div class="col-4">
                                     <div class="card">
-                                        <img src="images/post1.jpg" class="card-img-top" alt="...">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="card">
-                                        <img src="images/post2.jpg" class="card-img-top" alt="...">
                                     </div>
                                 </div>
                                 <div class="col-4">
                                     <div class="card">
-                                        <img src="images/post3.jpg" class="card-img-top" alt="...">
                                     </div>
                                 </div>
                             </div>
